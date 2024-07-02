@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: rgba(0, 0, 255, 0.297);
+      }
+      .form-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        border-radius: 3%;
+        border: 1px solid black;
+      }
+      .form-container h1 {
+        text-align: center;
+        padding-bottom: 300px;
+      }
+      .form-container label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .form-container input,
+      .form-container select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .form-container input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      .form-container input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container" style="display: flex; flex-wrap: wrap">
+      <div
+        style="
+          border: 1px solid black;
+          height: 150px;
+          width: 250px;
+          align-content: center;
+          padding-left: 60px;
+          border-radius: 20px;
+          background-color: rgba(0, 0, 255, 0.16);
+          margin-right: 20;
+        "
+        id="card1"
+      >
+        <div>
+          <b> Student id : U18/CPS/1001</b><br />
+          <b> Date : 16/05/2016</b><br />
+          <b> Status: present</b><br />
+        </div>
+      </div>
+    </div>
+    <!-- <h1>Attendance Form</h1> -->
+  </body>
+  <script src="./attendance.js"></script>
+
+  <script src="./index.js"></script>
+</html>
